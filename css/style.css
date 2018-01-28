@@ -250,7 +250,7 @@ h2.title:after {
     text-align: center;
     width: 20%;
     left: 40%;
-    top: 90%;
+    top: 65%;
     opacity: 0;
     transition: all 1s ease-in-out;
     text-decoration: none;
@@ -273,7 +273,7 @@ h2.title:after {
 }
 
 #main-img:hover #release-overlay a {
-    transform: translateY(-150%);
+    transform: translateY(-90%);
     opacity: 1;
 }
 
