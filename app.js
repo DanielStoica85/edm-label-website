@@ -9,6 +9,12 @@ document.addEventListener('DOMContentLoaded', function () {
         console.log('Unable to fetch images.', err);
     });
 
+    catalog.getMainUrl().then(url => {
+        ui.setCurrentReleaseImageUrl(url);
+    }).catch(err => {
+        console.log('Unable to fetch link.');
+    });
+
     catalog.getCatalog().then(releasesList => {
         ui.displayThumbnails(releasesList);
     });

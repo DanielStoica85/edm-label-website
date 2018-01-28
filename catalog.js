@@ -20,6 +20,15 @@ class Catalog {
         return mainImage;
     }
 
+    async getMainUrl() {
+
+        const releases = await this.getCatalog();
+
+        const mainUrl = releases[0].url;
+
+        return mainUrl;
+    }
+
     async getImages() {
 
         const releases = await this.getCatalog();
