@@ -7,7 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
     <title>Label Website</title>
 </head>
 
@@ -68,16 +69,159 @@
     </section>
     <!-- Showcase end -->
 
-    <section id="artists">
-        
-        <h2 class="title">Our Artists</h2>
+    <!-- Releases -->
 
+    <section id="releases">
 
+        <h2 class="title">Latest Releases</h2>
+
+        <div class="container">
+            <div id="main-img">
+                <img src="" id="current-release">
+            </div>
+            <div id="release-images">
+            </div>
+        </div>
 
     </section>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- Releases end -->
+
+    <!-- Artists -->
+    <section id="artists">
+
+        <h2 class="title">Our Artists</h2>
+
+        <ul class="grid" id="artist-list">
+            <li class="artist">
+                <div class="artist-image">
+                    <img src="img/artists/artist1.jpg" alt="Artist Image">
+                </div>
+                <div class="artist-presentation">
+                    <ul class="social">
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="artist-text">
+                        <h4 class="artist-title">Ferreck Dawn</h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam voluptates fuga architecto est! Aliquam,
+                            itaque nisi? Doloremque autem veritatis accusamus?</p>
+                    </div>
+                </div>
+            </li>
+            <li class="artist">
+                <div class="artist-image">
+                    <img src="img/artists/artist2.jpg" alt="Artist Image">
+                </div>
+                <div class="artist-presentation">
+                    <ul class="social">
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="artist-text">
+                        <h4 class="artist-title">Rene Amesz</h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam voluptates fuga architecto est! Aliquam,
+                            itaque nisi? Doloremque autem veritatis accusamus?</p>
+                    </div>
+                </div>
+            </li>
+            <li class="artist">
+                <div class="artist-image">
+                    <img src="img/artists/artist3.jpg" alt="Artist Image">
+                </div>
+                <div class="artist-presentation">
+                    <ul class="social">
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="artist-text">
+                        <h4 class="artist-title">Mark Knight</h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam voluptates fuga architecto est! Aliquam,
+                            itaque nisi? Doloremque autem veritatis accusamus?</p>
+                    </div>
+                </div>
+            </li>
+            <li class="artist">
+                    <div class="artist-image">
+                        <img src="img/artists/artist4.jpg" alt="Artist Image">
+                    </div>
+                    <div class="artist-presentation">
+                        <ul class="social">
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-instagram"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="artist-text">
+                            <h4 class="artist-title">Dosem</h4>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam voluptates fuga architecto est! Aliquam,
+                                itaque nisi? Doloremque autem veritatis accusamus?</p>
+                        </div>
+                    </div>
+                </li>
+        </ul>
+
+    </section>
+
+    <!-- Artists end -->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <script src="catalog.js"></script>
+    <script src="ui.js"></script>
+    <script src="app.js"></script>
 
 </body>
 
